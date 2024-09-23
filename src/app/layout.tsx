@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} p-4 min-h-screen flex flex-col items-center bg-[url('/blob.png')] bg-cover`}>{children}</body>
     </html>
   );
 }
