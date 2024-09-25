@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { CardWrapper } from "./card-wrapper.component";
+import { LinkedinIcon } from "@/icons/social/linkedin.icon";
+import { GithubIcon } from "@/icons/social/github.icon";
 
 export function EducationComponent() {
   return (
@@ -14,9 +16,13 @@ export function EducationComponent() {
         </div>
       </div>
 
-      <div className="mt-12 flex flex-col items-start">
-        <button type="button">Github link</button>
-        <button type="button">Linkedin link</button>
+      <div className="mt-12 flex flex-col items-start gap-2">
+        <Link className="link link-secondary flex items-center gap-2" href="https://www.linkedin.com/in/fescherer" target="_blank">
+          <LinkedinIcon className="size-4" hasOriginalColor/> /fescherer
+        </Link>
+        <Link className="link link-secondary flex items-center gap-2" href="https://github.com/fescherer" target="_blank">
+          <GithubIcon className="size-4" hasOriginalColor/> /fescherer
+        </Link>
         <div>qr code</div>
 
         <div className="divider" />
