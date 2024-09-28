@@ -43,7 +43,7 @@ const toolkit = [
 
 export function ToolkitComponent() {
   return (
-    <section className="flex flex-col">
+    <CardWrapper direction="collumn">
       <h2 className="text-center text-4xl leading-loose tracking-wider">
         Toolkit
       </h2>
@@ -85,6 +85,6 @@ export function ToolkitComponent() {
         }
       </div>
 
-    </section>
+    </CardWrapper>
   )
 }
