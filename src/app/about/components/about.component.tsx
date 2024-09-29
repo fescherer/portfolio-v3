@@ -30,8 +30,8 @@ export function AboutComponent() {
         <p className="max-w-md leading-snug">Lorem ipsum dolor sit amet consectetur. Faucibus praesent fusce dictum dignissim porttitor sit habitasse felis sit. Mi velit lacus feugiat egestas sit diam amet magna. Proin gravida ullamcorper et dolor morbi proin euismod. Tincidunt gravida pellentesque id enim posuere volutpat arcu et.Tincidunt gravida pellentesque id enim posuere volutpat arcu et.Tincidunt gravida pellentesque id enim posuere volutpat arcu et.Tincidunt gravida pellentesque id enim posuere volutpat arcu et.</p>
 
         <div className="mt-10 flex gap-3 ">
+          <Link className="btn btn-primary" href="#hire-me">Hire Me</Link>
           <Link className="btn btn-outline btn-secondary" href="#resume">Resume</Link>
-          <Link className="btn btn-outline btn-primary" href="#hire-me">Hire Me</Link>
         </div>
       </div>
     </CardWrapper>
