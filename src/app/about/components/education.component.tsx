@@ -16,7 +16,7 @@ export function EducationComponent() {
         </div>
       </div>
 
-      <div className="mt-12 flex flex-col items-start gap-2">
+      <div className="mt-12 flex w-full flex-col items-center gap-4 md:w-1/3 md:items-start ">
         <Link className="link link-secondary flex items-center gap-2" href="https://www.linkedin.com/in/fescherer" target="_blank">
           <LinkedinIcon className="size-4" hasOriginalColor/> /fescherer
         </Link>

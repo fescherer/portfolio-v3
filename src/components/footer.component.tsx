@@ -9,7 +9,7 @@ export function Footer() {
       </div>
       <footer className="w-full bg-neutral px-10 pb-10 text-neutral-content">
         <div className="m-auto max-w-3xl divide-y">
-          <div className="flex items-center justify-between gap-10 pb-10">
+          <div className="flex flex-col items-center justify-between gap-10 pb-10 md:flex-row">
             <div className="flex flex-col gap-2">
               <h3 className="text-lg">Drop me a message</h3>
               <p className="max-w-[32ch] text-sm opacity-80">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa vel nam atque totam aliquam, explicabo distinctio at inventore</p>
@@ -45,7 +45,7 @@ export function Footer() {
 
           </div>
 
-          <div className="flex items-center justify-between py-6">
+          <div className="flex flex-col items-center justify-between gap-4 py-6 md:flex-row">
             <Image src="/logo.svg" alt="" width={200} height={200} />
             <span className="text-sm">2024- Fennec Tales Studio</span>
             <SocialsComponent />
