@@ -5,7 +5,7 @@ import { SocialsComponent } from "@/components/socials.component";
 
 export function AboutComponent() {
   return (
-    <CardWrapper>
+    <CardWrapper id="about">
       <div className="flex flex-col gap-2">
         <div className="mockup-window border bg-base-300">
           <Image width={1722} height={2330} className="flex w-72 justify-center bg-base-200 p-2" alt="Felipe Scherer photo" src="/felipe-scherer.webp" unoptimized />
@@ -15,11 +15,11 @@ export function AboutComponent() {
 
       <div className="flex flex-col items-center md:ml-10 md:items-start">
         <h1 className="text-4xl leading-loose tracking-wider">About me</h1>
-        <p className="max-w-md leading-snug">Lorem ipsum dolor sit amet consectetur. Faucibus praesent fusce dictum dignissim porttitor sit habitasse felis sit. Mi velit lacus feugiat egestas sit diam amet magna. Proin gravida ullamcorper et dolor morbi proin euismod. Tincidunt gravida pellentesque id enim posuere volutpat arcu et.Tincidunt gravida pellentesque id enim posuere volutpat arcu et.Tincidunt gravida pellentesque id enim posuere volutpat arcu et.Tincidunt gravida pellentesque id enim posuere volutpat arcu et.</p>
+        <p className="max-w-md text-justify leading-snug">I am Felipe Scherer, creator of Fennec Tales Studio and a software developer with over five years of experience in delivering innovative solutions across various platforms. My expertise spans web and mobile application development, with a strong emphasis on user experience and performance optimization. Currently, I am expanding my skills in game development. Committed to continuous learning, I stay updated with industry trends to ensure the highest quality results.</p>
 
         <div className="mt-10 flex gap-3 ">
-          <Link className="btn btn-primary" href="#hire-me">Hire Me</Link>
-          <Link className="btn btn-outline btn-secondary" href="#resume">Resume</Link>
+          <Link className="btn btn-primary" href="#contact">Hire Me</Link>
+          <Link className="btn btn-outline btn-secondary" href="#education">Resume</Link>
         </div>
       </div>
     </CardWrapper>

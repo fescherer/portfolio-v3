@@ -16,7 +16,7 @@ const cards = [
 
 export function ServicesComponent() {
   return (
-    <CardWrapper direction="collumn">
+    <CardWrapper direction="collumn" id="services">
       <h2 className="text-center text-4xl leading-loose tracking-wider">
         Services
       </h2>

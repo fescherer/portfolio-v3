@@ -5,7 +5,7 @@ import { GithubIcon } from "@/icons/social/github.icon";
 
 export function EducationComponent() {
   return (
-    <CardWrapper>
+    <CardWrapper id="education">
       <div className="flex flex-col items-center md:items-start">
         <h2 className="text-4xl leading-loose tracking-wider">Education & Experiences</h2>
         <p className="max-w-md leading-snug">Lorem ipsum dolor sit amet consectetur. Faucibus praesent fusce dictum dignissim porttitor sit habitasse felis sit. Mi velit lacus feugiat egestas sit diam amet magna. Proin gravida ullamcorper et dolor morbi proin euismod. Tincidunt gravida pellentesque id enim posuere volutpat arcu et.Tincidunt gravida pellentesque id enim posuere volutpat arcu et.Tincidunt gravida pellentesque id enim posuere volutpat arcu et.Tincidunt gravida pellentesque id enim posuere volutpat arcu et.</p>

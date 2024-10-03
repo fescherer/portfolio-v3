@@ -4,7 +4,7 @@ import { SocialsComponent } from "./socials.component";
 export function Footer() {
   return (
     <>
-      <div className="mt-40 flex h-20 w-full items-center justify-center rounded-t-full bg-neutral text-neutral-content">
+      <div id="contact" className="mt-40 flex h-20 w-full items-center justify-center rounded-t-full bg-neutral text-neutral-content">
         <h2 className="text-2xl">Contact</h2>
       </div>
       <footer className="w-full bg-neutral px-10 pb-10 text-neutral-content">

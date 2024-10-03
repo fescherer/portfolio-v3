@@ -43,7 +43,7 @@ const toolkit = [
 
 export function ToolkitComponent() {
   return (
-    <CardWrapper direction="collumn">
+    <CardWrapper direction="collumn" id="toolkit">
       <h2 className="text-center text-4xl leading-loose tracking-wider">
         Toolkit
       </h2>
