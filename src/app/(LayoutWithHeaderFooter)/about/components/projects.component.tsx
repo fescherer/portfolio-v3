@@ -47,8 +47,8 @@ const projects: TProjectComponent[] = [
 
 export function ProjectsComponent() {
   return (
-    <CardWrapper direction="collumn">
-      <h2 className="text-center text-4xl leading-loose tracking-wider">Projects- Portifolio</h2>
+    <CardWrapper direction="collumn" id="projects">
+      <h2 className="text-center text-4xl leading-loose tracking-wider">Projects- Portfolio</h2>
 
       <div className="divide-y">
         {

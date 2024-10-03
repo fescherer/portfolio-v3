@@ -3,6 +3,7 @@ import { EducationComponent } from "./components/education.component";
 import { ToolkitComponent } from "./components/toolkit.component";
 import { ServicesComponent } from "./components/services.component";
 import { ProjectsComponent } from "./components/projects.component";
+import { BlogComponent } from "./components/blog.component";
 
 export default function AboutPage() {
   return (
@@ -12,6 +13,7 @@ export default function AboutPage() {
       <EducationComponent />
       <ToolkitComponent />
       <ServicesComponent />
+      <BlogComponent />
     </>
   )
 }
