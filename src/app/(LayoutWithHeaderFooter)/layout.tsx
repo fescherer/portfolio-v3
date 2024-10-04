@@ -1,5 +1,5 @@
 import { Footer } from "@/components/footer.component";
-import { HeaderComponent } from "@/components/header.component";
+import { HeaderComponent } from "@/components/header/header.component";
 
 export default function LayoutWithHeaderFooter({
   children,
