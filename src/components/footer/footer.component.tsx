@@ -10,7 +10,7 @@ export function Footer() {
       </div>
       <footer className="w-full bg-neutral px-10 pb-10 text-neutral-content">
         <div className="m-auto max-w-3xl divide-y">
-          <div className="flex flex-col justify-between gap-10 pb-10 md:flex-row">
+          <div className="flex flex-col items-center justify-between gap-10 pb-10 md:flex-row md:items-baseline">
             <div className="flex flex-col gap-2">
               <h3 className="text-lg">Drop me a message</h3>
               <p className="max-w-[32ch] text-sm opacity-80">Have a question or project idea? Reach out through the form or the email below, and I will get back to you within 48 hours. Let&apos;s connect and create something great together!</p>
