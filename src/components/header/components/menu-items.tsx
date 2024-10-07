@@ -50,4 +50,13 @@ export const menuItems: TMenuItems[] = [
       path: '/about'
     }
   },
+  {
+    id: 'menu-3',
+    subItems: [],
+    mainItem: {
+      id: 'menu-main-contact',
+      name: 'Contact',
+      path: '/about#contact'
+    }
+  },
 ]

@@ -1,21 +1,22 @@
 import Image from "next/image";
 import { CardWrapper } from "./card-wrapper.component";
 import Link from "next/link";
+import { BrightnessLink } from "@/components/brightness-link.component";
 
 export function BlogComponent() {
   return (
     <CardWrapper id="blog">
       <div className="max-w-sm">
         <h2 className="text-4xl leading-loose tracking-wider">
-          Blog
+          Fennec Tales Studio
         </h2>
 
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur autem eum nesciunt quibusdam! Qui, architecto. Aut, labore tempore. Repellendus itaque quos nobis sint exercitationem aperiam reprehenderit quasi hic fugiat non!</p>
+        <p>From time to time, I enjoy sharing insights on topics I have learned or experiences from my professional journey, which I share on my blog. I welcome you to explore my posts and share any feedback or suggestions.</p>
       </div>
 
-      <Link href="https://fennectales.com" target="_blank">
+      <BrightnessLink href="https://fennectales.com" target="_blank">
         <Image className="rounded" src="/blog.png" width={1068} height={922} alt="Blog" />
-      </Link>
+      </BrightnessLink>
     </CardWrapper>
   )
 }
