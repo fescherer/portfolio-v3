@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { SocialsComponent } from "./socials.component";
+import { SocialsComponent } from "../socials.component";
+import { FormComponent } from "./components/form.component";
 
 export function Footer() {
   return (
@@ -9,10 +10,10 @@ export function Footer() {
       </div>
       <footer className="w-full bg-neutral px-10 pb-10 text-neutral-content">
         <div className="m-auto max-w-3xl divide-y">
-          <div className="flex flex-col items-center justify-between gap-10 pb-10 md:flex-row">
+          <div className="flex flex-col justify-between gap-10 pb-10 md:flex-row">
             <div className="flex flex-col gap-2">
               <h3 className="text-lg">Drop me a message</h3>
-              <p className="max-w-[32ch] text-sm opacity-80">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa vel nam atque totam aliquam, explicabo distinctio at inventore</p>
+              <p className="max-w-[32ch] text-sm opacity-80">Have a question or project idea? Reach out through the form or the email below, and I will get back to you within 48 hours. Let&apos;s connect and create something great together!</p>
 
               <div className="mt-8 flex flex-col gap-4">
                 <div className="flex items-center gap-4">
@@ -22,7 +23,7 @@ export function Footer() {
                       <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
                     </svg>
                   </div>
-                  fennectales@gmail.com
+                  felipescherer25@gmail.com
                 </div>
 
                 <div className="flex items-center gap-4">
@@ -36,12 +37,7 @@ export function Footer() {
               </div>
             </div>
 
-            <form className="flex flex-col gap-4 rounded border border-base-200 p-4 shadow-lg">
-              <input placeholder="name"/>
-              <input placeholder="Email"/>
-              <textarea placeholder="Message"/>
-              <button type="button">Send</button>
-            </form>
+            <FormComponent />
 
           </div>
 

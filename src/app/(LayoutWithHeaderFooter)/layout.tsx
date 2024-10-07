@@ -1,4 +1,4 @@
-import { Footer } from "@/components/footer.component";
+import { Footer } from "@/components/footer/footer.component";
 import { HeaderComponent } from "@/components/header/header.component";
 
 export default function LayoutWithHeaderFooter({
