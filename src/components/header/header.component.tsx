@@ -2,6 +2,7 @@ import { LogoIcon } from "@/icons/logo.icon";
 import Link from "next/link";
 import { MenuComponent } from "./components/menu.component";
 import { MenuMobile } from "./components/menu-mobile.component";
+import { LanguageSelector } from "./components/language-selector";
 
 export function HeaderComponent() {
   return (
@@ -30,8 +31,9 @@ export function HeaderComponent() {
         <Link className=" text-primary" href="/"><LogoIcon /></Link>
       </div>
       <div className="navbar-end">
-        <div className="hidden flex-1 justify-end px-2 md:flex">
+        <div className="hidden flex-1 items-center justify-end px-2 md:flex">
           <MenuComponent />
+          <LanguageSelector />
         </div>
       </div>
     </div>
