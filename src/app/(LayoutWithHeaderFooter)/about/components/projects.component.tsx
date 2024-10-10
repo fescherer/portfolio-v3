@@ -13,7 +13,7 @@ const projects: TProjectComponent[] = [
       height: 400,
       alt: 'Cat alura'
     },
-    link: '/project1',
+    link: '/projects/',
     orientation: 'left',
     color: '#ff2200'
   },

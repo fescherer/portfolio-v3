@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { CardWrapper } from "./card-wrapper.component";
-import { services } from "@/util/data/services.data";
+import { SERVICES } from "@/util/data/services.data";
 
 
 export function ServicesComponent() {
@@ -14,7 +14,7 @@ export function ServicesComponent() {
 
       <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
         {
-          services.map(card => (
+          SERVICES.map(card => (
             <div key={card.title} className="rounded border border-teal-400 p-4">
               <div className="flex items-center gap-2">
                 <div className="rounded-full bg-primary p-3">

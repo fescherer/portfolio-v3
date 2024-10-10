@@ -7,7 +7,7 @@ type TToolkitData = {
   docLink: string
 }
 
-export const toolkitData: TToolkitData[] = [
+export const TOOLKIT: TToolkitData[] = [
   {
     name: 'NextJS',
     icon: (<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -104,7 +104,7 @@ export const toolkitData: TToolkitData[] = [
         </clipPath>
       </defs>
     </svg>),
-    description: "Is a raster image graphics editor. Used for a lot of designers.",
+    description: "A raster image graphics editor. Used for a lot of designers.",
     docLink: 'https://www.adobe.com/products/photoshop.html'
   },
   {
@@ -121,7 +121,7 @@ export const toolkitData: TToolkitData[] = [
         </clipPath>
       </defs>
     </svg>),
-    description: "Is a vector image graphics editor. Used for a lot of designers.",
+    description: "A vector image graphics editor. Used for a lot of designers.",
     docLink: 'https://www.adobe.com/products/illustrator.html'
   },
   {

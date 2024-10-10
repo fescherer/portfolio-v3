@@ -1,6 +1,6 @@
 import { CardWrapper } from "./card-wrapper.component";
 import Link from "next/link";
-import { toolkitData } from "@/util/data/toolkit.data";
+import { TOOLKIT } from "@/util/data/toolkit.data";
 
 export function ToolkitComponent() {
   return (
@@ -11,7 +11,7 @@ export function ToolkitComponent() {
 
       <div className="flex flex-wrap justify-center gap-4">
         {
-          toolkitData.map(tool => (
+          TOOLKIT.map(tool => (
             <label key={tool.name} className="swap swap-flip">
               <input type="checkbox" />
 
