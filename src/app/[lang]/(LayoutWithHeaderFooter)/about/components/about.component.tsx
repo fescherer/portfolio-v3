@@ -2,8 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { CardWrapper } from "./card-wrapper.component";
 import { SocialsComponent } from "@/components/socials.component";
+import { getDictionary } from "@/get-dictionary";
+import { RootLayoutType } from "@/@types/language.type";
 
-export function AboutComponent() {
+export async function AboutComponent({ dictionary }: any) {
+
   return (
     <CardWrapper id="about">
       <div className="flex flex-col gap-2">
@@ -14,7 +17,7 @@ export function AboutComponent() {
       </div>
 
       <div className="flex flex-col items-center md:ml-10 md:items-start">
-        <h1 className="text-4xl leading-loose tracking-wider">About me</h1>
+        <h1 className="text-4xl leading-loose tracking-wider">{dictionary.about.title}</h1>
         <p className="p">I am Felipe Scherer, creator of Fennec Tales Studio and a software developer with over five years of experience in delivering innovative solutions across various platforms. My expertise spans web and mobile application development, with a strong emphasis on user experience and performance optimization. </p>
         <p className="p">
           Currently, I am expanding my skills in game development. Committed to continuous learning, I stay updated with industry trends to ensure the highest quality results.

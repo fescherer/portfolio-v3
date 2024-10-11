@@ -4,11 +4,15 @@ import { ToolkitComponent } from "./components/toolkit.component";
 import { ServicesComponent } from "./components/services.component";
 import { ProjectsComponent } from "./components/projects.component";
 import { BlogComponent } from "./components/blog.component";
+import { RootLayoutType } from "@/@types/language.type";
+import { getDictionary } from "@/get-dictionary";
 
-export default function AboutPage() {
+export default async function AboutPage({ params }: RootLayoutType) {
+  const dictionary = await getDictionary(params.lang)
+
   return (
     <>
-      <AboutComponent />
+      <AboutComponent dictionary={dictionary}/>
       <ProjectsComponent />
       <EducationComponent />
       <ToolkitComponent />
