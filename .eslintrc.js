@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["next/core-web-vitals", "plugin:react/recommended", 'plugin:tailwindcss/recommended'],
+  extends: ["next/core-web-vitals", "plugin:react/recommended", 'plugin:tailwindcss/recommended', "plugin:jsonc/recommended-with-jsonc"],
   plugins: ["@stylistic"],
   rules: {
     '@stylistic/indent': ['error', 2],
