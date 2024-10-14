@@ -8,7 +8,7 @@ export default function LayoutWithHeaderFooter({
 }>) {
   return (
     <>
-      <div className="relative flex max-w-4xl flex-col space-y-32">
+      <div className="relative flex w-full max-w-4xl flex-col space-y-32">
         <HeaderComponent />
         {children}
       </div>

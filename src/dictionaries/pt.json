@@ -1,5 +1,22 @@
 {
   "about": {
     "title": "Sobre mim"
+  },
+  "projects": {
+    "seo": {
+      "defaultDescription": "Aqui você encontra todos meus projetos",
+      "defaultTitle": "Projetos",
+      "defaultAltImage": "Felipe Scherer",
+      "defaultKeywords": [
+        "projetos"
+      ]
+    },
+    "placeholder": {
+      "search": "Pesquise",
+      "type": "Selecione um filtro de tipo..."
+    },
+    "project-card": {
+      "read-more": "Veja mais..."
+    }
   }
 }

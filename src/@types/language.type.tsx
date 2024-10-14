@@ -5,3 +5,5 @@ export type RootLayoutType = {
     lang: Locale
   }
 }
+
+export type PropsWithLocale<P = unknown> = P & { lang: Locale }
